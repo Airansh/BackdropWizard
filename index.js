@@ -54,7 +54,7 @@ app.post('/upload', async (req, res) => {
 
 
 // SEGMIND
-const api_key = "SG_f48a18068874b12f";
+const api_key = "ENTER_KEY_HERE";
 const url = "https://api.segmind.com/v1/sdxl1.0-txt2img";
 
 app.post('/segmind', async (req, res) => {
